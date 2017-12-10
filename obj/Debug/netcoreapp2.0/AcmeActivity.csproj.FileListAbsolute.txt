@@ -1,0 +1,11 @@
+C:\Users\apezzatto\dev\githubrepo\AcmeActivity\bin\Debug\netcoreapp2.0\AcmeActivity.deps.json
+C:\Users\apezzatto\dev\githubrepo\AcmeActivity\bin\Debug\netcoreapp2.0\AcmeActivity.runtimeconfig.json
+C:\Users\apezzatto\dev\githubrepo\AcmeActivity\bin\Debug\netcoreapp2.0\AcmeActivity.runtimeconfig.dev.json
+C:\Users\apezzatto\dev\githubrepo\AcmeActivity\bin\Debug\netcoreapp2.0\AcmeActivity.dll
+C:\Users\apezzatto\dev\githubrepo\AcmeActivity\bin\Debug\netcoreapp2.0\AcmeActivity.pdb
+C:\Users\apezzatto\dev\githubrepo\AcmeActivity\obj\Debug\netcoreapp2.0\AcmeActivity.csproj.CoreCompileInputs.cache
+C:\Users\apezzatto\dev\githubrepo\AcmeActivity\obj\Debug\netcoreapp2.0\AcmeActivity.AssemblyInfoInputs.cache
+C:\Users\apezzatto\dev\githubrepo\AcmeActivity\obj\Debug\netcoreapp2.0\AcmeActivity.AssemblyInfo.cs
+C:\Users\apezzatto\dev\githubrepo\AcmeActivity\obj\Debug\netcoreapp2.0\AcmeActivity.dll
+C:\Users\apezzatto\dev\githubrepo\AcmeActivity\obj\Debug\netcoreapp2.0\AcmeActivity.pdb
+C:\Users\apezzatto\dev\githubrepo\AcmeActivity\obj\Debug\netcoreapp2.0\AcmeActivity.csprojResolveAssemblyReference.cache
