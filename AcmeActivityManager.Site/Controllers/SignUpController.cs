@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using AcmeActivity.Data;
-using AcmeActivity.Models;
+using AcmeActivityManager.Application.ViewModels;
 
 namespace AcmeActivity.Controllers
 {
@@ -32,16 +32,16 @@ namespace AcmeActivity.Controllers
         // POST: SignUp/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,FirstName,LastName,Email,ActivityName,Comments,Date")] SignUpViewModel signUpViewModel)
+        public async Task<IActionResult> Create(SignUpViewModel signUpViewModel)
         {
-            if (ModelState.IsValid)
-            {
-                signUpViewModel.Id = Guid.NewGuid();
-                _context.Add(signUpViewModel);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(signUpViewModel);
+            if (!ModelState.IsValid) return View(signUpViewModel);
+
+
+            signUpViewModel.Id = Guid.NewGuid();
+            _context.Add(signUpViewModel);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+            
         }
 
         private bool SignUpViewModelExists(Guid id)
